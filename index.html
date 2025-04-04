@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+<h1 id="title">👩‍💻Coding Mums Club Survey Form</h1>
+<p id="description">Welcome to the Coding Mums Club Survey! We are on a mission to empower mothers in tech by creating a supportive learning environment. Your feedback will help us design better programs and meet your needs. Please take a few minutes to fill out this survey.</p>
+<form id="survey-form">
+  <fieldset>
+  <label id="name-label" for="name">Full Name (required):</label>
+  <input type="text" 
+  id="name" 
+  name="name" 
+  placeholder="Ex. John Doe" 
+  required 
+  size="20"></br>
+<label id="email-label"
+
+for="email-label">Email address (required):</label>
+  <input
+            type="email"
+             placeholder="Ex. example@email.com"
+            required
+            id="email"
+            type="email"
+            name="email"
+            size="20"
+  ></br>
+          <label for="number" id="number-label">number</label>
+          <input 
+          required
+          placeholder="070000000000"
+          id="number"
+          type="number"
+          min="10"
+          max="15"></br>
+          <label for="dropdown">Which best describes your current status?</label>
+          <select id="dropdown">
+             <option value="career-switcher">Career Switcher</option>
+  <option value="stay-at-home">Stay-at-Home Mom Learning to Code</option>
+  <option value="student">Computer Science Student</option>
+  <option value="other">Other</option>
+          </select></br>
+          <p>What programming language are you most interested in?</p>
+
+<input type="radio" id="javascript" name="language" value="javascript">
+<label for="javascript">JavaScript</label><br>
+
+<input type="radio" id="python" name="language" value="python">
+<label for="python">Python</label></br>
+
+<input type="radio" id="c##" name="language" value="c##">
+<label for="c##">C##</label></br>
+
+<input type="radio" id="java" name="language" value="java">
+<label for="java">Java</label></br>
+
+<p>What resources would help you the most?</p>
+
+  <input type="checkbox" id="workshops" name="resources" value="workshops">
+  <label for="workshops">💻Live Coding Workshops</label><br>
+
+  <input type="checkbox" id="networking" name="resources" value="networking">
+  <label for="networking">🤝Networking with Other Mums in Tech</label></br>
+
+ <input type="checkbox" id="learning" name="resources" value="learning">
+  <label for="learning">📚Structured Learning Roadmaps</label></br> 
+
+  <input type="checkbox" id="hackerthorns" name="resources" value="lhackerthorns">
+  <label for="hackerthorns">🏆 Hackerthorns & Coding Challenges</label></br>
+
+  <label for="comments">Additional Comments:</label><br>
+  <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Share your thoughts, challenges, or ideas..."></textarea>
+
+   <button id="submit" type="submit">Submit Survey</button>
+</form></br>
+
+
+  <body></body>
+</html>
